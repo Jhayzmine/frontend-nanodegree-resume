@@ -26,7 +26,7 @@ h6 {
 
 h1 {
   font-size: 40px;
-  color: #f5a623;
+  color: #b48a9e;
   line-height: 48px;
   display: inline;
 }
@@ -100,16 +100,18 @@ a {
 }
 
 #skills-h3 {
-  color: #f5ae23;
+  color: #b48a9e;
   display: none;
 }
 
 .orange {
-  background-color: #f5ae23;
+  background-color: #B48A9E;
 }
-
+.center-text{
+  color: #4A4A4A;
+}
 .orange-text {
-  color: #f5ae23;
+  color: #ACBDCF;
 }
 
 .white-text {
@@ -162,12 +164,23 @@ img {
 
 span {
   padding: 5px;
+  color:#ACBDCF;
 }
 
 #lets-connect {
   text-align: center;
 }
+#map {
+  display: block;
+  height: 100%;
+  margin: 0 5%;
+}
 
+#mapDiv {
+  height: 400px;
+  width: 100%;
+  padding-bottom: 5%;
+}
 /* Media queries to handle various device widths */
 
 @media only screen and (max-width: 1024px) {
@@ -194,17 +207,7 @@ span {
   }
 }
 
-#map {
-  display: block;
-  height: 100%;
-  margin: 0 5%;
-}
 
-#mapDiv {
-  height: 400px;
-  width: 100%;
-  padding-bottom: 5%;
-}
 
 @media only screen and (min-width: 750px) {
   #skills-h3,
